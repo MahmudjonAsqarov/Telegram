@@ -3,18 +3,21 @@
         "id": 0,
         "username": "Asqarov Mahmudjon",
         "lastMessage": "key={productItem}",
+        "online":"online",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnxlR6bxMYeS7ilYQI1A9FfBfybDCKCoWbw&usqp=CAU"
     },
     {
         "id": 1,
         "username": "Munisa Rizayeva",
         "lastMessage": "hello bro",
+        "online":"online",
         "image": "https://lastfm.freetls.fastly.net/i/u/770x0/1f9c979c56c80d7a3ace707e349fc773.jpg"
     },
     {
         "id": 2,
-        "username": "Gulomjonov Shohruzbek",
+        "username": "Nosirov Murodxon",
         "lastMessage": "please install",
+        "online":"online",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_iqGNdD4GH3TF01wwe0LgIwgwl7pODjSEg&usqp=CAU"
     },
     {
