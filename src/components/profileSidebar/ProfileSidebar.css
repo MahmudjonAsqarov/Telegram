@@ -1,0 +1,21 @@
+.profileSidebar {
+    width: 535px !important;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    color: red;
+    width: 460px;
+    z-index: 990 !important;
+    /* animation: profileAnime 0.5s linear forwards; */
+}
+
+@keyframes profileAnime {
+    from {
+        right: -500px
+    }
+    to {
+        right: 0px;
+    }
+}

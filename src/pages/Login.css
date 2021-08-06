@@ -1,0 +1,170 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: none !important;
+}
+
+.login_container {
+    width: 40%;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login_container h2 {
+    font-size: 25px ;
+    padding: 10px;
+}
+
+.login_container p {
+    width: 80%;
+    text-align: center;
+}
+
+.login_container > p > span > a {
+    color: red;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.login_logo {
+    width: 200px;
+}
+
+#login_email {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    height: 42px;
+    background-color: #fff;
+    margin: 10px 0px;
+    text-indent: 15px;
+}
+
+#login_password {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    height: 42px;
+    background-color: #fff;
+    margin: 10px 0px;
+    text-indent: 15px;
+}
+
+#login_submit {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    height: 42px;
+    background-color: #21bad7;
+    color: white;
+    margin: 10px 0px;
+    text-indent: 15px;
+}
+
+.user_alreadyInuse {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 40px;
+    background-color: red;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.showAlert {
+    animation: showAlert 3s ease-in-out;
+}
+
+@keyframes showAlert {
+    10% {
+        top: 30px;
+    }
+    80% {
+        top: 30px;
+    }
+    100% {
+        top: -100px;
+    }
+}
+
+@keyframes showlert {
+    10% {
+        bottom: 0px;
+    }
+    
+    100% {
+        bottom: 0px;
+    }
+}
+
+.normal {
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translate(-50%);
+    padding: 20px 40px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    animation: showDetect1 2s ease-in-out forwards;
+}
+
+.warning {
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translate(-50%);
+    padding: 20px 40px;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    animation: showDetect2 2s ease-in-out forwards;
+}
+
+@keyframes showDetect1 {
+    0% {
+        display: none !important;
+        top: -100px;
+    }
+    20% {
+        display: block !important;
+        top: 20px;
+    }
+    90% {
+        display: block !important;
+        top: 20px;
+    }
+    100% {
+        display: none !important;
+        top: -100px;
+    }
+}
+@keyframes showDetect2 {
+    0% {
+        display: none !important;
+        top: -100px;
+    }
+    20% {
+        display: block !important;
+        top: 20px;
+    }
+    90% {
+        display: block !important;
+        top: 20px;
+    }
+    100% {
+        display: none !important;
+        top: -100px;
+    }
+}

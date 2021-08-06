@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "nickname" : "Umal",
+        "profileImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnxlR6bxMYeS7ilYQI1A9FfBfybDCKCoWbw&usqp=CAU "
+    },
+    {
+        "id" : 2,
+        "nickname" : "Mike",
+        "profileImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnxlR6bxMYeS7ilYQI1A9FfBfybDCKCoWbw&usqp=CAU "
+    },
+    {
+        "id" : 3,
+        "nickname" : "Alice",
+        "profileImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnxlR6bxMYeS7ilYQI1A9FfBfybDCKCoWbw&usqp=CAU "
+    },
+    {
+        "id" : 4,
+        "nickname" : "John",
+        "profileImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnxlR6bxMYeS7ilYQI1A9FfBfybDCKCoWbw&usqp=CAU "
+    },
+    {
+        "id" : 5,
+        "nickname" : "Keyle",
+        "profileImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnxlR6bxMYeS7ilYQI1A9FfBfybDCKCoWbw&usqp=CAU "
+    },
+    {
+        "id" : 6,
+        "nickname" : "Norn",
+        "profileImage" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbnxlR6bxMYeS7ilYQI1A9FfBfybDCKCoWbw&usqp=CAU "
+    }
+]

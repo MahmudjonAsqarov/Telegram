@@ -1,0 +1,78 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_container{
+    width: 40%;
+    height: 10vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_container > h2{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.login_logo > p{
+    width: 10%;
+    text-align: center;
+}
+
+.login_logo{
+    width: 200px;
+}
+
+#login_email, #login_password{
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f7f7f7;
+    margin: 20px 0px;
+    text-indent: 10px;
+    font-size: 16px;
+}
+
+#login_submit{
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    background-color: #1D9AD7;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.user_alreadyInuse{
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 15px 40px;
+    background-color: red;
+    color: #fff;
+    border-radius: 15px;
+}
+.showAlert{
+    animation: showAlert 3s ease-in-out;
+}
+@keyframes showAlert {
+    20%{
+        top: 20px; 
+    }
+    90%{
+        top: 20px;
+    }
+    100%{
+        top: -100px;
+    }
+}

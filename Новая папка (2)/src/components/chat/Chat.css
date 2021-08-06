@@ -1,0 +1,15 @@
+.chat{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-color: red;
+}
+
+.chat__container{
+    padding-top: 10px;
+}
+
+.message{
+    padding: 7px 10px;
+    background-color: #212121;
+    margin: 10px;
+}
